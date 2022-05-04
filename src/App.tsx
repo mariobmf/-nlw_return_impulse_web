@@ -1,7 +1,6 @@
 import React from 'react';
+import { Widget } from './components/Widget';
 
-// import { Container } from './styles';
-
-const App: React.FC = () => <h1>Initial Commit</h1>;
+const App: React.FC = () => <Widget />;
 
 export default App;

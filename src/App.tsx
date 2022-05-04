@@ -1,8 +1,7 @@
+import React from 'react';
 
-function App() {
-  return (
-    <h1>Initial Commit</h1>
-  )
-}
+// import { Container } from './styles';
 
-export default App
+const App: React.FC = () => <h1>Initial Commit</h1>;
+
+export default App;

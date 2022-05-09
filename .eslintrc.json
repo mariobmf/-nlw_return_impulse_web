@@ -20,9 +20,11 @@
   "plugins": [
     "react",
     "@typescript-eslint",
-    "react-hooks"
+    "react-hooks",
+    "prettier"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "semi": "error",
     "arrow-parens": [2, "as-needed"],
     "no-use-before-define": "off",
